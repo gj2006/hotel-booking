@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Hotel Booking Website</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1>Hotel Booking Website</h1>
+
+  <form action="/book" method="POST">
+    <label>Name:</label>
+    <input type="text" name="name" required>
+
+    <label>Room Type:</label>
+    <select name="room">
+      <option>Single Room</option>
+      <option>Double Room</option>
+      <option>Deluxe Room</option>
+    </select>
+
+    <label>Number of Days:</label>
+    <input type="number" name="days" required>
+
+    <button type="submit">Book Room</button>
+  </form>
+
+</body>
+</html>
